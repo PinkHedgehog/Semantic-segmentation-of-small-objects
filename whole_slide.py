@@ -5,15 +5,13 @@ from PIL import Image, ImageColor, ImageEnhance, ImageFilter
 import openslide
 import cv2
 import random
-import multiprocessing as mp
-import cythonmagic as cy
 import matplotlib.pyplot as plt
 import torch
 import skimage
 from skimage import io
 from skimage import data
 import skimage.color as col
-import Helpers.piece_of_slide
+import piece_of_slide
 import segmentation_models_pytorch
 
 class WholeSlide(openslide.OpenSlide):
