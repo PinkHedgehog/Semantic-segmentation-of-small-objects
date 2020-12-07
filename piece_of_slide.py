@@ -10,7 +10,7 @@ import cythonmagic as cy
 import matplotlib.pyplot as plt
 import torch
 import skimage
-import Helpers.helpers as h
+import helpers as h
 from skimage import io
 from skimage import data
 import skimage.color as col
